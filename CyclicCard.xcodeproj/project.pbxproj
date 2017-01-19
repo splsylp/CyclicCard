@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45503C881E305B4400C78F66 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45503C861E305B4400C78F66 /* Header.swift */; };
+		45503C891E305B4400C78F66 /* View(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = 45503C871E305B4400C78F66 /* View(Extension).swift */; };
+		45549AC21E25FDCB00F24054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AC11E25FDCB00F24054 /* AppDelegate.swift */; };
+		45549AC41E25FDCB00F24054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AC31E25FDCB00F24054 /* ViewController.swift */; };
+		45549AC71E25FDCB00F24054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45549AC51E25FDCB00F24054 /* Main.storyboard */; };
+		45549AC91E25FDCB00F24054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45549AC81E25FDCB00F24054 /* Assets.xcassets */; };
+		45549ACC1E25FDCB00F24054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45549ACA1E25FDCB00F24054 /* LaunchScreen.storyboard */; };
+		45549AD71E25FDCC00F24054 /* CyclicCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AD61E25FDCC00F24054 /* CyclicCardTests.swift */; };
+		45549AE21E25FDCC00F24054 /* CyclicCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AE11E25FDCC00F24054 /* CyclicCardUITests.swift */; };
+		45549AF41E25FFBE00F24054 /* CyclicCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AF31E25FFBE00F24054 /* CyclicCardCell.swift */; };
+		45549AF61E261D0900F24054 /* CyclicCardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45549AF51E261D0900F24054 /* CyclicCardFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45549AD31E25FDCC00F24054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45549AB61E25FDCB00F24054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45549ABD1E25FDCB00F24054;
+			remoteInfo = CyclicCard;
+		};
+		45549ADE1E25FDCC00F24054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45549AB61E25FDCB00F24054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45549ABD1E25FDCB00F24054;
+			remoteInfo = CyclicCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45503C861E305B4400C78F66 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		45503C871E305B4400C78F66 /* View(Extension).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View(Extension).swift"; sourceTree = "<group>"; };
+		45549ABE1E25FDCB00F24054 /* CyclicCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyclicCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45549AC11E25FDCB00F24054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45549AC31E25FDCB00F24054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45549AC61E25FDCB00F24054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45549AC81E25FDCB00F24054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45549ACB1E25FDCB00F24054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45549ACD1E25FDCB00F24054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45549AD21E25FDCC00F24054 /* CyclicCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclicCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45549AD61E25FDCC00F24054 /* CyclicCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicCardTests.swift; sourceTree = "<group>"; };
+		45549AD81E25FDCC00F24054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45549ADD1E25FDCC00F24054 /* CyclicCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclicCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45549AE11E25FDCC00F24054 /* CyclicCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicCardUITests.swift; sourceTree = "<group>"; };
+		45549AE31E25FDCC00F24054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45549AF31E25FFBE00F24054 /* CyclicCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclicCardCell.swift; sourceTree = "<group>"; };
+		45549AF51E261D0900F24054 /* CyclicCardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclicCardFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45549ABB1E25FDCB00F24054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549ACF1E25FDCC00F24054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549ADA1E25FDCC00F24054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45503C851E305B4400C78F66 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				45503C861E305B4400C78F66 /* Header.swift */,
+				45503C871E305B4400C78F66 /* View(Extension).swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		45549AB51E25FDCB00F24054 = {
+			isa = PBXGroup;
+			children = (
+				45549AC01E25FDCB00F24054 /* CyclicCard */,
+				45549AD51E25FDCC00F24054 /* CyclicCardTests */,
+				45549AE01E25FDCC00F24054 /* CyclicCardUITests */,
+				45549ABF1E25FDCB00F24054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45549ABF1E25FDCB00F24054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45549ABE1E25FDCB00F24054 /* CyclicCard.app */,
+				45549AD21E25FDCC00F24054 /* CyclicCardTests.xctest */,
+				45549ADD1E25FDCC00F24054 /* CyclicCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45549AC01E25FDCB00F24054 /* CyclicCard */ = {
+			isa = PBXGroup;
+			children = (
+				45549AC11E25FDCB00F24054 /* AppDelegate.swift */,
+				45549AC31E25FDCB00F24054 /* ViewController.swift */,
+				45549AF31E25FFBE00F24054 /* CyclicCardCell.swift */,
+				45549AF51E261D0900F24054 /* CyclicCardFlowLayout.swift */,
+				45549AC51E25FDCB00F24054 /* Main.storyboard */,
+				45549AC81E25FDCB00F24054 /* Assets.xcassets */,
+				45549ACA1E25FDCB00F24054 /* LaunchScreen.storyboard */,
+				45549ACD1E25FDCB00F24054 /* Info.plist */,
+				45503C851E305B4400C78F66 /* Tool */,
+			);
+			path = CyclicCard;
+			sourceTree = "<group>";
+		};
+		45549AD51E25FDCC00F24054 /* CyclicCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				45549AD61E25FDCC00F24054 /* CyclicCardTests.swift */,
+				45549AD81E25FDCC00F24054 /* Info.plist */,
+			);
+			path = CyclicCardTests;
+			sourceTree = "<group>";
+		};
+		45549AE01E25FDCC00F24054 /* CyclicCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45549AE11E25FDCC00F24054 /* CyclicCardUITests.swift */,
+				45549AE31E25FDCC00F24054 /* Info.plist */,
+			);
+			path = CyclicCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45549ABD1E25FDCB00F24054 /* CyclicCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45549AE61E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCard" */;
+			buildPhases = (
+				45549ABA1E25FDCB00F24054 /* Sources */,
+				45549ABB1E25FDCB00F24054 /* Frameworks */,
+				45549ABC1E25FDCB00F24054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyclicCard;
+			productName = CyclicCard;
+			productReference = 45549ABE1E25FDCB00F24054 /* CyclicCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45549AD11E25FDCC00F24054 /* CyclicCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45549AE91E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCardTests" */;
+			buildPhases = (
+				45549ACE1E25FDCC00F24054 /* Sources */,
+				45549ACF1E25FDCC00F24054 /* Frameworks */,
+				45549AD01E25FDCC00F24054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45549AD41E25FDCC00F24054 /* PBXTargetDependency */,
+			);
+			name = CyclicCardTests;
+			productName = CyclicCardTests;
+			productReference = 45549AD21E25FDCC00F24054 /* CyclicCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45549ADC1E25FDCC00F24054 /* CyclicCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45549AEC1E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCardUITests" */;
+			buildPhases = (
+				45549AD91E25FDCC00F24054 /* Sources */,
+				45549ADA1E25FDCC00F24054 /* Frameworks */,
+				45549ADB1E25FDCC00F24054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45549ADF1E25FDCC00F24054 /* PBXTargetDependency */,
+			);
+			name = CyclicCardUITests;
+			productName = CyclicCardUITests;
+			productReference = 45549ADD1E25FDCC00F24054 /* CyclicCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45549AB61E25FDCB00F24054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					45549ABD1E25FDCB00F24054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					45549AD11E25FDCC00F24054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45549ABD1E25FDCB00F24054;
+					};
+					45549ADC1E25FDCC00F24054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45549ABD1E25FDCB00F24054;
+					};
+				};
+			};
+			buildConfigurationList = 45549AB91E25FDCB00F24054 /* Build configuration list for PBXProject "CyclicCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45549AB51E25FDCB00F24054;
+			productRefGroup = 45549ABF1E25FDCB00F24054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45549ABD1E25FDCB00F24054 /* CyclicCard */,
+				45549AD11E25FDCC00F24054 /* CyclicCardTests */,
+				45549ADC1E25FDCC00F24054 /* CyclicCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45549ABC1E25FDCB00F24054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45549ACC1E25FDCB00F24054 /* LaunchScreen.storyboard in Resources */,
+				45549AC91E25FDCB00F24054 /* Assets.xcassets in Resources */,
+				45549AC71E25FDCB00F24054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549AD01E25FDCC00F24054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549ADB1E25FDCC00F24054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45549ABA1E25FDCB00F24054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45549AF41E25FFBE00F24054 /* CyclicCardCell.swift in Sources */,
+				45503C891E305B4400C78F66 /* View(Extension).swift in Sources */,
+				45549AC41E25FDCB00F24054 /* ViewController.swift in Sources */,
+				45503C881E305B4400C78F66 /* Header.swift in Sources */,
+				45549AF61E261D0900F24054 /* CyclicCardFlowLayout.swift in Sources */,
+				45549AC21E25FDCB00F24054 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549ACE1E25FDCC00F24054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45549AD71E25FDCC00F24054 /* CyclicCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45549AD91E25FDCC00F24054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45549AE21E25FDCC00F24054 /* CyclicCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45549AD41E25FDCC00F24054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45549ABD1E25FDCB00F24054 /* CyclicCard */;
+			targetProxy = 45549AD31E25FDCC00F24054 /* PBXContainerItemProxy */;
+		};
+		45549ADF1E25FDCC00F24054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45549ABD1E25FDCB00F24054 /* CyclicCard */;
+			targetProxy = 45549ADE1E25FDCC00F24054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45549AC51E25FDCB00F24054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45549AC61E25FDCB00F24054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45549ACA1E25FDCB00F24054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45549ACB1E25FDCB00F24054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45549AE41E25FDCC00F24054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45549AE51E25FDCC00F24054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45549AE71E25FDCC00F24054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CyclicCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45549AE81E25FDCC00F24054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CyclicCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45549AEA1E25FDCC00F24054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CyclicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyclicCard.app/CyclicCard";
+			};
+			name = Debug;
+		};
+		45549AEB1E25FDCC00F24054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CyclicCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CyclicCard.app/CyclicCard";
+			};
+			name = Release;
+		};
+		45549AED1E25FDCC00F24054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CyclicCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CyclicCard;
+			};
+			name = Debug;
+		};
+		45549AEE1E25FDCC00F24054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CyclicCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.CyclicCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CyclicCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45549AB91E25FDCB00F24054 /* Build configuration list for PBXProject "CyclicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45549AE41E25FDCC00F24054 /* Debug */,
+				45549AE51E25FDCC00F24054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45549AE61E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45549AE71E25FDCC00F24054 /* Debug */,
+				45549AE81E25FDCC00F24054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45549AE91E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45549AEA1E25FDCC00F24054 /* Debug */,
+				45549AEB1E25FDCC00F24054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45549AEC1E25FDCC00F24054 /* Build configuration list for PBXNativeTarget "CyclicCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45549AED1E25FDCC00F24054 /* Debug */,
+				45549AEE1E25FDCC00F24054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45549AB61E25FDCB00F24054 /* Project object */;
+}

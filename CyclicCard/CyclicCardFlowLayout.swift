@@ -21,7 +21,7 @@ class CyclicCardFlowLayout: UICollectionViewFlowLayout {
         for layoutAttributes in attriArray {
             let itemHorizontalCenterX = layoutAttributes.center.x
             // 找出离中心点最近的
-            if(abs(itemHorizontalCenterX-horizontalCenterX) < abs(offsetAdjustment)){
+            if(abs(itemHorizontalCenterX-horizontalCenterX) < abs(offsetAdjustment)) {
                 offsetAdjustment = itemHorizontalCenterX-horizontalCenterX
             }
         }
@@ -40,12 +40,11 @@ class CyclicCardFlowLayout: UICollectionViewFlowLayout {
         visibleRect.origin = self.collectionView!.contentOffset
         visibleRect.size = self.collectionView!.bounds.size
         
-        for attributes in array!{
+        for attributes in array! {
             let distance = visibleRect.midX - attributes.center.x
-            let normalizedDistance = abs(distance/ActiveDistance)
+            let normalizedDistance = abs(distance / ActiveDistance)
             let zoom = 1 - ScaleFactor * normalizedDistance
             attributes.transform3D = CATransform3DMakeScale(1.0, zoom, 1.0)
-            attributes.zIndex = 1
 //            let alpha = 1 - normalizedDistance
 //            attributes.alpha = alpha
         }
